@@ -1448,6 +1448,19 @@ void CApplication::StopIdleThread()
   m_idleThread.StopThread();
 }
 
+void CApplication::CheckxbdStats()
+{
+	if (g_guiSettings.GetBool("discord.xbdstats"))
+	{
+		char szXBEFileName[1024];
+		CIoSupport::GetXbePath(szXBEFileName);
+		if (g_guiSettings.GetBool("discord.xbdstatsclose"))
+			CUtil::SendToXBDStats("");
+		else
+			CUtil::SendToXBDStats(szXBEFileName);
+	}					 
+}
+
 void CApplication::StartWebServer()
 {
   if (g_guiSettings.GetBool("services.webserver") && m_network.IsAvailable() )

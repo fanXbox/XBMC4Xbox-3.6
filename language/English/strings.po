@@ -4796,6 +4796,10 @@ msgstr ""
 
 #empty string with id 13412
 
+msgctxt "#13412"
+msgid "Play from here"
+msgstr ""
+
 msgctxt "#13413"
 msgid "Downloading"
 msgstr ""
@@ -4844,7 +4848,15 @@ msgctxt "#13424"
 msgid "Use pixel buffer objects"
 msgstr ""
 
-#empty strings from id 13425 to 13499
+#empty strings from id 13433 to 13499
+
+msgctxt "#13433"
+msgid "Play the next video automatically"
+msgstr ""
+
+msgctxt "#13434"
+msgid "Play only this"
+msgstr ""
 
 msgctxt "#13500"
 msgid "A/V sync method"
@@ -8401,6 +8413,23 @@ msgstr ""
 #strings 30000 thru 30999 reserved for plugins and plugin settings
 #strings 31000 thru 31999 reserved for skins
 #strings 32000 thru 32999 reserved for scripts
+
+msgctxt "#32025"
+msgid "Discord"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Enable xbdStats communication"
+msgstr ""
+
+msgctxt "#32027"
+msgid "- Send title names to server"
+msgstr ""
+
+msgctxt "#32028"
+msgid "- Clear presence on startup"
+msgstr ""
+
 #strings 33000 thru 33999 reserved for common strings used in addons
 
 msgctxt "#33001"
